@@ -67,6 +67,16 @@ header {
   background-color: rgb(245, 245, 245, 0);
 }
 
+.button--nav {
+  cursor: pointer;
+  border: none;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245, 0);
+}
+
 .button--answer {
   width: fit-content;
   align-self: center;

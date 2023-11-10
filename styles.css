@@ -38,6 +38,7 @@ header {
 
 .card--title {
   align-self: center;
+  text-align: center;
 }
 
 .questioncard {

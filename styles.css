@@ -99,3 +99,16 @@ tag {
 tagline {
   margin-top: 20px;
 }
+
+footer {
+  position: sticky;
+  bottom: 0;
+  background-color: #3458a7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  max-height: 50px;
+  padding: 5px;
+}

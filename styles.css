@@ -3,3 +3,99 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0 0 0 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+header {
+  border-bottom: 1px solid rgb(234, 234, 234);
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  color: #4678e3;
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: xx-large;
+  margin: 0.5rem;
+}
+
+.card--title {
+  align-self: center;
+}
+
+.questioncard {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(64, 114, 222, 0.1);
+  margin: 30px;
+  padding: 50px;
+  position: relative;
+  /* border: 1px dotted rgb(234, 234, 234); */
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.button--bookmark {
+  border: none;
+  max-width: 50px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -25px;
+  right: 5%;
+  background-color: rgb(245, 245, 245, 0);
+}
+
+.button--answer {
+  width: fit-content;
+  align-self: center;
+  margin: 30px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: #4678e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button--answer:hover {
+  background-color: #3458a7;
+}
+
+tag {
+  background-color: #46dbe3;
+  color: white;
+  padding: 3px;
+  padding-right: 7px;
+  padding-left: 7px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+tagline {
+  margin-top: 20px;
+}

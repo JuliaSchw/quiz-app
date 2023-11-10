@@ -6,6 +6,9 @@
 
 body {
   margin: 0 0 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  color: rgb(28, 28, 28);
 }
 
 main {
@@ -29,16 +32,12 @@ header {
   backdrop-filter: blur(10px);
   color: #4678e3;
   text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .title {
   font-size: xx-large;
   margin: 0.5rem;
-}
-
-.card--title {
-  align-self: center;
-  text-align: center;
 }
 
 .questioncard {
@@ -51,6 +50,11 @@ header {
   /* border: 1px dotted rgb(234, 234, 234); */
   border-radius: 10px;
   max-width: 400px;
+}
+
+.card--title {
+  align-self: center;
+  text-align: center;
 }
 
 .button--bookmark {
@@ -112,7 +116,8 @@ tagline {
 }
 
 footer {
-  position: sticky;
+  position: fixed;
+  width: 100%;
   bottom: 0;
   background-color: #3458a7;
 }
@@ -122,4 +127,43 @@ nav {
   justify-content: space-around;
   max-height: 50px;
   padding: 5px;
+}
+
+.profile {
+  margin: 50px;
+  max-width: 400px;
+}
+
+.profile--header {
+  display: flex;
+  gap: 10px;
+}
+
+.profile--photo {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.profile--title {
+  align-self: center;
+  font-size: x-large;
+  margin: 0.5rem;
+}
+
+countline {
+  display: flex;
+  justify-content: center;
+  /* max-width: 200px; */
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+count {
+  background-color: #434647;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  color: white;
 }

@@ -1,5 +1,6 @@
+@import url(color.css);
 @import url(header.css);
-@import url(button__bookmarc.css);
+@import url(button__bookmark.css);
 @import url(footer.css);
 
 *,
@@ -90,7 +91,7 @@ main {
   padding-left: 10px;
   font-size: x-large;
   font-weight: 600;
-  background-color: #4678e3;
+  background-color: var(--color--lightblue);
   color: white;
   border: none;
   border-radius: 5px;
@@ -98,11 +99,11 @@ main {
 }
 
 .button--answer:hover {
-  background-color: #3458a7;
+  background-color: var(--color--darkblue);
 }
 
 tag {
-  background-color: #46dbe3;
+  background-color: var(--color--torquoise);
   color: white;
   padding: 3px;
   padding-right: 7px;

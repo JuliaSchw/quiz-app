@@ -22,11 +22,6 @@ main {
   align-items: center;
 }
 
-section {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 /* header {
   border-bottom: 1px solid rgb(234, 234, 234);
   display: flex;

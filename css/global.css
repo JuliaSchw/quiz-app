@@ -1,3 +1,5 @@
+@import url(button__bookmarc.css);
+
 *,
 *::before,
 *::after {
@@ -58,7 +60,7 @@ header {
   text-align: center;
 }
 
-.button--bookmark {
+/* .button--bookmark {
   border: none;
   max-width: 50px;
   padding: 0 0 0 0;
@@ -70,7 +72,7 @@ header {
   top: -25px;
   right: 5%;
   background-color: rgb(245, 245, 245, 0);
-}
+} */
 
 .button--nav {
   cursor: pointer;
@@ -118,6 +120,10 @@ tagline {
 
 footer {
   position: fixed;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  max-height: 50px;
   width: 100%;
   bottom: 0;
   background-color: #3458a7;
@@ -125,9 +131,8 @@ footer {
 
 nav {
   display: flex;
-  justify-content: space-around;
-  max-height: 50px;
-  padding: 5px;
+  justify-content: space-between;
+  gap: 50px;
 }
 
 .profile {

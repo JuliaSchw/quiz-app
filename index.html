@@ -9,6 +9,20 @@
 <link rel="stylesheet" href="./css/global.css" />
 <script src="js/index.js" defer></script>
 
+<!-- 
+Deferred Execution: The deferred script is executed only 
+after the HTML parsing is complete.
+
+By using defer, you ensure that the script does not block the 
+HTML parsing and rendering process. It is commonly used when you 
+want to include scripts at the beginning of your HTML document, 
+but you want to make sure they are executed after the HTML has been fully parsed.
+
+It's important to note that the defer attribute only works for 
+external scripts (those loaded with a src attribute). 
+If the script is inline (written directly within the <script> tags), 
+the defer attribute has no effect. -->
+
 <body>
   <header>
     <h1 class="title">Quiz App</h1>

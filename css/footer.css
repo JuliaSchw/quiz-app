@@ -7,5 +7,12 @@ footer {
   width: 100%;
   bottom: 0;
   background-color: #3458a7;
-  fill: white;
+}
+
+.footer--icon {
+  color: white;
+}
+
+.footer--icon--active {
+  color: orangered;
 }

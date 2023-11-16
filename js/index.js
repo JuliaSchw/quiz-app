@@ -1,6 +1,10 @@
-const changeIcon = document.querySelector('[data-js="bookmark--icon"]');
-const button = document.querySelector('[data-js="bookmark"]');
+// Save to Bookmarks Click Event
 
-button.addEventListener("click", () => {
-  changeIcon.classList.toggle("card--icon--active");
+const saveToBookmarksButton = document.querySelector('[data-js="bookmark"]');
+const paintBookmark = document.querySelector('[data-js="bookmark--icon"]');
+
+saveToBookmarksButton.addEventListener("click", () => {
+  paintBookmark.classList.toggle("card--icon--active");
 });
+
+// Go to Page Click Event

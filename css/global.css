@@ -31,22 +31,8 @@ main {
   align-items: center;
 }
 
-/* header {
-  border-bottom: 1px solid rgb(234, 234, 234);
-  display: flex;
-  justify-content: center;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  backdrop-filter: blur(10px);
-  color: #4678e3;
-  text-transform: uppercase;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-} */
-
 .title {
-  font-size: xx-large;
-  margin: 0.5rem;
+  font-size: 64px;
 }
 
 .questioncard {
@@ -56,7 +42,6 @@ main {
   margin: 30px;
   padding: 50px;
   position: relative;
-  /* border: 1px dotted rgb(234, 234, 234); */
   border-radius: 10px;
   max-width: 400px;
 }
@@ -65,20 +50,6 @@ main {
   align-self: center;
   text-align: center;
 }
-
-/* .button--bookmark {
-  border: none;
-  max-width: 50px;
-  padding: 0 0 0 0;
-  margin: 0 0 0 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: -25px;
-  right: 5%;
-  background-color: rgb(245, 245, 245, 0);
-} */
 
 .button--nav {
   cursor: pointer;
@@ -124,17 +95,6 @@ tagline {
   margin-top: 20px;
 }
 
-/* footer {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  padding: 5px;
-  max-height: 50px;
-  width: 100%;
-  bottom: 0;
-  background-color: #3458a7;
-} */
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -166,7 +126,6 @@ nav {
 countline {
   display: flex;
   justify-content: center;
-  /* max-width: 200px; */
   gap: 2rem;
   margin-top: 1rem;
   margin-bottom: 1rem;

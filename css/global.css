@@ -1,7 +1,7 @@
 @import url(color.css);
 @import url(header.css);
 @import url(button__bookmark.css);
-@import url(footer.css);
+@import url(navigation.css);
 
 *,
 *::before,
@@ -82,7 +82,7 @@ main {
   background-color: var(--color--darkblue);
 }
 
-tag {
+/* tag {
   background-color: var(--color--torquoise);
   color: white;
   padding: 3px;
@@ -94,13 +94,7 @@ tag {
 
 tagline {
   margin-top: 20px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-}
+} */
 
 .profile {
   margin: 50px;

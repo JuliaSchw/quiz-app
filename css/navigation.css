@@ -1,0 +1,34 @@
+/* Navigation */
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color--lila);
+}
+
+/* <ul> element */
+.navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+/* <li> element */
+.navigation--element {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  color: white;
+  scale: 200%;
+}

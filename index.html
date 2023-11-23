@@ -15,43 +15,8 @@
 <script src="js/header.js" defer></script>
 <script src="js/questioncard.js" defer></script>
 
-<!-- 
-Deferred Execution: The deferred script is executed only 
-after the HTML parsing is complete.
-
-By using defer, you ensure that the script does not block the 
-HTML parsing and rendering process. It is commonly used when you 
-want to include scripts at the beginning of your HTML document, 
-but you want to make sure they are executed after the HTML has been fully parsed.
-
-It's important to note that the defer attribute only works for 
-external scripts (those loaded with a src attribute). 
-If the script is inline (written directly within the <script> tags), 
-the defer attribute has no effect. -->
-
 <body>
   <main data-js="main">
-    <!-- Question Card 01 -->
-    <section class="questioncard">
-      <button class="button--bookmark" data-js="bookmark">
-        <span
-          class="material-symbols-outlined card--icon"
-          data-js="bookmark--icon"
-        >
-          bookmark
-        </span>
-      </button>
-      <h3 class="card--title">What property flips the axes in flexbox?</h3>
-      <button class="button--answer" data-js="button--answer">
-        show answer
-      </button>
-      <ul class="tagline">
-        <li class="tag">#html</li>
-        <li class="tag">#flexbox</li>
-        <li class="tag">#css</li>
-      </ul>
-    </section>
-
     <!-- Navigation Bar -->
     <nav>
       <ul class="navigation">

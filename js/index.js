@@ -13,7 +13,7 @@ const answerButton = document.querySelector('[data-js="button--answer"]');
 // create a new element for the answer text as <h3>
 const answerText = document.createElement("h3");
 
-function showAnswerText() {
+function showAnswer() {
   // fill the h3 element with some text
   answerText.textContent = "This is a test";
   answerText.classList.add("answer");
@@ -25,10 +25,9 @@ function showAnswerText() {
   answerButton.textContent = "hide answer";
 }
 
-function showAnswer() {
-  answerButton.addEventListener("click", () => {
-    showAnswerText();
-  });
+function hideAnswer() {
+  answerText.classList.add("hidden");
+  answerButton.textContent = "show answer";
 }
 
 var clickCount = 0;
@@ -42,8 +41,7 @@ function updateClickCount() {
   if (clickCount % 2 !== 0 && clickCount !== 0) {
     showAnswer();
   } else {
-    answerText.remove();
-    answerButton.textContent = "show answer";
+    hideAnswer();
   }
 }
 

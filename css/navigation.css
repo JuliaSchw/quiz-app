@@ -20,13 +20,26 @@ nav {
   width: 100%;
 }
 
-/* <li> element -> nagigation */
+/* <li> element -> nagigation (type button) */
 .navigation--element {
   list-style: none;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+/* <li> element -> nagigation (type button) 
+should be applied with an hover event with java script*/
+.navigation--element--hover {
+  background-color: var(--color--darklila);
+}
+
+/* <li> element -> nagigation (type button) 
+should be applied with an click event with java script*/
+.navigation--element--active {
+  background-color: var(--color--darklila);
 }
 
 /* <span> element for icon -> navigation */

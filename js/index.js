@@ -14,9 +14,10 @@ const answerButton = document.querySelector('[data-js="button--answer"]');
 const answerText = document.createElement("h3");
 
 function showAnswer() {
-  // fill the h3 element with some text
+  // fill the h3 element with some text + add class
   answerText.textContent = "This is a test";
   answerText.classList.add("answer");
+  answerText.classList.remove("hidden");
 
   // place the new element under the answerButton
   answerButton.insertAdjacentElement("afterend", answerText);

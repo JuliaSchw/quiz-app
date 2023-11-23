@@ -10,11 +10,10 @@ saveToBookmarksButton.addEventListener("click", () => {
 // Show and Hide the Answer on click
 
 const answerButton = document.querySelector('[data-js="button--answer"]');
+// create a new element for the answer text as <h3>
+const answerText = document.createElement("h3");
 
 function showAnswerText() {
-  // create a new element for the answer text as <h3>
-  const answerText = document.createElement("h3");
-
   // fill the h3 element with some text
   answerText.textContent = "This is a test";
   answerText.classList.add("answer");
@@ -44,6 +43,7 @@ function updateClickCount() {
     showAnswer();
   } else {
     answerText.remove();
+    answerButton.textContent = "show answer";
   }
 }
 

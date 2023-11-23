@@ -36,16 +36,3 @@ count {
   align-items: center;
   gap: 30px;
 }
-
-.tagline {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  gap: 10px;
-  color: var(--color--darklila);
-}
-
-.tag {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-}

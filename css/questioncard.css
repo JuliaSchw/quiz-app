@@ -11,7 +11,8 @@
 
 .answer {
   text-align: center;
-  color: blueviolet;
+  color: black;
+  padding-bottom: 10px;
 }
 
 .card--title {
@@ -47,4 +48,16 @@
 
 .button--answer:hover {
   background-color: var(--color--darklila);
+}
+
+.tagline {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  color: var(--color--darklila);
+  padding: 0;
+}
+
+.tag {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }

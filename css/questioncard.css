@@ -1,0 +1,45 @@
+/* Question Card */
+.questioncard {
+  background-color: var(--color--lightlila);
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  padding: 50px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.card--title {
+  align-self: center;
+  text-align: center;
+}
+
+.button--nav {
+  cursor: pointer;
+  border: none;
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245, 0);
+}
+
+.button--answer {
+  width: fit-content;
+  align-self: center;
+  margin: 30px;
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: 600;
+  background-color: var(--color--lightblue);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button--answer:hover {
+  background-color: var(--color--darklila);
+}

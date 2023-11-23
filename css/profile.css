@@ -1,0 +1,51 @@
+.profile--header {
+  display: flex;
+  gap: 10px;
+}
+
+.profile--photo {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+.profile--title {
+  align-self: center;
+  font-size: x-large;
+  margin: 0.5rem;
+}
+
+countline {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+count {
+  background-color: #434647;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.darkmode--switch {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.tagline {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+  color: var(--color--darklila);
+}
+
+.tag {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

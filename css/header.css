@@ -10,5 +10,5 @@ header {
   color: var(--color--lila);
   text-transform: uppercase;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  background-color: var(--color--lightlila);
+  /* background-color: var(--color--lightlila); */
 }

@@ -3,10 +3,15 @@
   background-color: var(--color--lightlila);
   display: flex;
   flex-direction: column;
-  height: 250px;
+  min-height: 250px;
   padding: 50px;
   border-radius: 15px;
   position: relative;
+}
+
+.answer {
+  text-align: center;
+  color: blueviolet;
 }
 
 .card--title {

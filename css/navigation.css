@@ -1,5 +1,6 @@
 /* Navigation */
 
+/* <nav> main element -> navigation */
 nav {
   position: fixed;
   display: flex;
@@ -11,7 +12,7 @@ nav {
   background-color: var(--color--lila);
 }
 
-/* <ul> element */
+/* <ul> element -> navigation */
 .navigation {
   margin: 0;
   padding: 0;
@@ -19,7 +20,7 @@ nav {
   width: 100%;
 }
 
-/* <li> element */
+/* <li> element -> nagigation */
 .navigation--element {
   list-style: none;
   display: flex;
@@ -28,6 +29,7 @@ nav {
   align-items: center;
 }
 
+/* <span> element for icon -> navigation */
 .icon {
   color: white;
   scale: 200%;

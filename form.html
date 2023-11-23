@@ -12,17 +12,27 @@
   <link rel="stylesheet" href="./css/global.css" />
   <script src="js/index.js" defer></script>
   <script src="js/header.js" defer></script>
+  <script src="js/questioncard.js" defer></script>
   <body>
     <main>
       <!-- Form -->
-      <form>
-        <label for="question">Your Question</label>
-        <input name="question" id="question" />
-        <label for="answer">Your Answer</label>
-        <input name="answer" id="answer" />
-        <label for="tag">Add Tag</label>
-        <input name="tag" id="tag" />
-        <button>submit</button>
+      <form class="card-form">
+        <h3 class="form-heading">Form a new Question</h3>
+        <div class="input">
+          <input type="text" class="input-field" value="" required />
+          <label class="input-label">Your Question</label>
+        </div>
+        <div class="input">
+          <input type="text" class="input-field" value="" required />
+          <label class="input-label">Your Answer</label>
+        </div>
+        <div class="input">
+          <input type="text" class="input-field" value="" required />
+          <label class="input-label">Your Tag</label>
+        </div>
+        <div class="submit">
+          <button class="submit-button">Submit</button>
+        </div>
       </form>
 
       <!-- Navigation Bar -->

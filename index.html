@@ -1,62 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Quiz App Home</title>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
   </head>
+  <link rel="stylesheet" href="./css/global.css" />
+  <script src="js/index.js" defer></script>
+  <script src="js/header.js" defer></script>
+  <script src="js/questioncard.js" defer></script>
+
+  <body>
+    <main data-js="main">
+      <!-- Navigation Bar -->
+      <nav>
+        <ul class="navigation">
+          <li
+            type="button"
+            class="navigation--element"
+            aria-label="go to home page"
+          >
+            <a href="/index.html">
+              <span class="material-symbols-outlined icon"> home </span>
+            </a>
+          </li>
+          <li
+            type="button"
+            class="navigation--element"
+            aria-label="go to your bookmarks"
+          >
+            <a href="/bookmark.html">
+              <span class="material-symbols-outlined icon"> bookmark </span>
+            </a>
+          </li>
+          <li
+            type="button"
+            class="navigation--element"
+            aria-label="go to profile"
+          >
+            <a href="/profile.html">
+              <span class="material-symbols-outlined icon">
+                account_circle
+              </span>
+            </a>
+          </li>
+          <li
+            type="button"
+            class="navigation--element"
+            aria-label="go to profile"
+          >
+            <a href="/form.html">
+              <span class="material-symbols-outlined icon"> edit_note </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </main>
+  </body>
 </html>
-
-<link rel="stylesheet" href="./css/global.css" />
-<script src="js/index.js" defer></script>
-<script src="js/header.js" defer></script>
-<script src="js/questioncard.js" defer></script>
-
-<body>
-  <main data-js="main">
-    <!-- Navigation Bar -->
-    <nav>
-      <ul class="navigation">
-        <li
-          type="button"
-          class="navigation--element"
-          aria-label="go to home page"
-        >
-          <a href="/index.html">
-            <span class="material-symbols-outlined icon"> home </span>
-          </a>
-        </li>
-        <li
-          type="button"
-          class="navigation--element"
-          aria-label="go to your bookmarks"
-        >
-          <a href="/bookmark.html">
-            <span class="material-symbols-outlined icon"> bookmark </span>
-          </a>
-        </li>
-        <li
-          type="button"
-          class="navigation--element"
-          aria-label="go to profile"
-        >
-          <a href="/profile.html">
-            <span class="material-symbols-outlined icon"> account_circle </span>
-          </a>
-        </li>
-        <li
-          type="button"
-          class="navigation--element"
-          aria-label="go to profile"
-        >
-          <a href="/form.html">
-            <span class="material-symbols-outlined icon"> edit_note </span>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </main>
-</body>

@@ -19,5 +19,5 @@
 }
 
 .card--icon--active {
-  color: orangered;
+  color: var(--color--darklila);
 }

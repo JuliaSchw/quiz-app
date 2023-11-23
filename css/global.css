@@ -80,22 +80,8 @@ main {
 }
 
 .button--answer:hover {
-  background-color: var(--color--darkblue);
+  background-color: var(--color--darklila);
 }
-
-/* tag {
-  background-color: var(--color--torquoise);
-  color: white;
-  padding: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin: 3px;
-  border-radius: 5px;
-}
-
-tagline {
-  margin-top: 20px;
-} */
 
 .profile {
   margin: 50px;

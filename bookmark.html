@@ -35,28 +35,46 @@
         <tag>#css</tag>
       </tagline>
     </section>
-  </main>
-  <footer>
+    <!-- Navigation Bar -->
     <nav>
-      <a href="/index.html">
-        <button class="button--nav nav--home" aria-label="home page">
-          <span class="material-symbols-outlined footer--icon"> home </span>
-        </button>
-      </a>
-      <a href="/bookmark.html">
-        <button class="button--nav nav--bookmark" aria-label="saved questions">
-          <span class="material-symbols-outlined footer--icon--active">
-            bookmark
-          </span>
-        </button>
-      </a>
-      <a href="/profile.html">
-        <button class="button--nav nav--profile" aria-label="profile page">
-          <span class="material-symbols-outlined footer--icon">
-            account_circle
-          </span>
-        </button>
-      </a>
+      <ul class="navigation">
+        <li
+          type="button"
+          class="navigation--element"
+          aria-label="go to home page"
+        >
+          <a href="/index.html">
+            <span class="material-symbols-outlined icon"> home </span>
+          </a>
+        </li>
+        <li
+          type="button"
+          class="navigation--element"
+          aria-label="go to your bookmarks"
+        >
+          <a href="/bookmark.html">
+            <span class="material-symbols-outlined icon"> bookmark </span>
+          </a>
+        </li>
+        <li
+          type="button"
+          class="navigation--element"
+          aria-label="go to profile"
+        >
+          <a href="/profile.html">
+            <span class="material-symbols-outlined icon"> account_circle </span>
+          </a>
+        </li>
+        <li
+          type="button"
+          class="navigation--element"
+          aria-label="go to profile"
+        >
+          <a href="/profile.html">
+            <span class="material-symbols-outlined icon"> account_circle </span>
+          </a>
+        </li>
+      </ul>
     </nav>
-  </footer>
+  </main>
 </body>

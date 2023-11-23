@@ -13,21 +13,40 @@
   <script src="js/index.js" defer></script>
   <script src="js/header.js" defer></script>
   <script src="js/questioncard.js" defer></script>
+  <script src="js/form.js" defer></script>
   <body>
     <main>
       <!-- Form -->
-      <form class="card-form">
+      <form class="card-form" data-js="form">
         <h3 class="form-heading">Form a new Question</h3>
         <div class="input">
-          <input type="text" class="input-field" value="" required />
+          <input
+            type="text"
+            class="input-field"
+            value=""
+            required
+            data-js="question"
+          />
           <label class="input-label">Your Question</label>
         </div>
         <div class="input">
-          <input type="text" class="input-field" value="" required />
+          <input
+            type="text"
+            class="input-field"
+            value=""
+            required
+            data-js="answer"
+          />
           <label class="input-label">Your Answer</label>
         </div>
         <div class="input">
-          <input type="text" class="input-field" value="" required />
+          <input
+            type="text"
+            class="input-field"
+            value=""
+            required
+            data-js="tag"
+          />
           <label class="input-label">Your Tag</label>
         </div>
         <div class="submit">

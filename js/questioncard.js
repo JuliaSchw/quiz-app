@@ -29,6 +29,13 @@ function createQuestionCard() {
   answerButton.textContent = "show answer";
   sectionCard.appendChild(answerButton);
 
+  // Create Answer
+  const answer = document.createElement("p");
+  answer.classList.add("answer");
+  answer.classList.add("hidden");
+  answer.textContent = "Hi I'm a placeholder answer";
+  sectionCard.appendChild(answer);
+
   // Create Taglist
   const tagList = document.createElement("ul");
   tagList.classList.add("tagline");
@@ -39,6 +46,20 @@ function createQuestionCard() {
   tag.classList.add("tag");
   tag.textContent = "#tag";
   tagList.appendChild(tag);
+
+  // Create On Click function for answer
+
+  answerButton.addEventListener("click", () => {
+    answer.classList.toggle("hidden");
+    if (answer.classList.contains("hidden")) {
+      answerButton.textContent = "show answer";
+      answerButton.classList.add("button--answer");
+      answerButton.classList.remove("button--answer--active");
+    } else {
+      answerButton.textContent = "hide answer";
+      answerButton.classList.add("button--answer--active");
+    }
+  });
 
   console.log("HelloHello");
 }

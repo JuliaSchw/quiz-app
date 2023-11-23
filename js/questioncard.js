@@ -17,6 +17,11 @@ function createQuestionCard() {
   iconBookmark.textContent = "bookmark"; // Fix: add text content to span
   buttonBookmark.appendChild(iconBookmark);
 
+  // Add Bookmark Animation
+  buttonBookmark.addEventListener("click", () => {
+    iconBookmark.classList.toggle("card--icon--active");
+  });
+
   // Create Card Question
   const cardQuestion = document.createElement("h3");
   cardQuestion.classList.add("card--title");

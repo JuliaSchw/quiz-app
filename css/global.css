@@ -35,8 +35,8 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 50px;
   padding-bottom: 50px;
   gap: 50px;
@@ -51,12 +51,6 @@ main {
 
 .title {
   font-size: 64px;
-}
-
-.profile {
-  margin: 50px;
-  max-width: 400px;
-  text-align: justify;
 }
 
 a {

@@ -31,8 +31,8 @@ nav {
 }
 
 /* <li> element -> nagigation (type button) 
-should be applied with an hover event with java script*/
-.navigation--element--hover {
+should be applied with hover*/
+.navigation--element:hover {
   background-color: var(--color--darklila);
 }
 
